@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:login_course_app/screens/login/login_screen.dart';
 import 'package:login_course_app/utils/app_textstyles.dart';
 
 import '../../utils/app_strings.dart';
@@ -12,7 +13,7 @@ class ProfileScreen extends StatelessWidget {
   Future<void> _logout(BuildContext context) async {
     try {
       await FirebaseAuth.instance.signOut();
-      Navigator.pushReplacementNamed(context, '/login');
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LoginScreen()));
     } catch (e) {
       print('Error signing out: $e');
     }
