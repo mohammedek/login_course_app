@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126169545111",
+    "project_id": "product-store-26f3e",
+    "storage_bucket": "product-store-26f3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126169545111:android:deea761e6ca9b11513acd2",
+        "android_client_info": {
+          "package_name": "com.mohammedek.applications.login_course_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK8_POtx6UzJbLS_JaLI5LV42KrtdPaxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
